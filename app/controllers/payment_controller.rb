@@ -17,4 +17,6 @@ class PaymentController < ApplicationController
   end
   render({ :template => "game_templates/payment_results" })
 end
+end
+
   

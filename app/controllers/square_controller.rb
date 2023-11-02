@@ -6,7 +6,6 @@ class SquareController < ApplicationController
   end
     render({ :template => "game_templates/square" })
   end
-
   def square_new
     render({ :template => "game_templates/new_square_calc" })
   end
